@@ -1,0 +1,440 @@
+
+
+body, html{
+    height: 100% !important;
+    min-height: 100% !important;
+}
+
+
+.adress{
+    font-size: 20px;
+}
+.backgroundcolor{
+background-color: #2cc36b;
+    padding-bottom: 20px;
+}
+
+.backgroundcolorSidebar{
+    background-color: #2cc36b;
+    height: 135vh;
+}
+
+.inloggen{
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.uitloggen{
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+.menu{
+    margin-top: 100px;
+}
+
+a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
+}
+
+.menuitem{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.logo{
+    width: 150px;
+}
+
+.flowerpower{
+    margin-left: 250px;
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.boeket{
+    width: 450px;
+}
+
+.shop{
+    width: 550px;
+    margin-left: 50px;
+}
+
+.info{
+    font-size: 32px;
+}
+
+
+.registerform{
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.loginform{
+    margin-left: 400px;
+    margin-top: 250px;
+}
+.shop1{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.shop2, .shop3, .shop4{
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.imagecontact{
+    margin-top: 40px;
+    margin-right: 70px;
+    float:right;
+    width: 250px;
+}
+
+.imageommen{
+    margin-top: 210px;
+    margin-right: -250px;
+    float:right;
+    width: 250px;
+}
+
+
+.imagezwolle{
+    margin-top: 370px;
+    margin-right: -250px;
+    float:right;
+    width: 250px;
+}
+
+
+.imagedalfsen{
+    margin-top: 560px;
+    margin-right: -250px;
+    float:right;
+    width: 250px;
+    height: 150px;
+}
+
+.welcome{
+    margin-top: 90px;
+    margin-left: 150px;
+}
+
+
+.updatemenu{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.updatebutton{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.invoice{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.invoiceTitle{
+    font-size: 32px;
+}
+
+.invoiceContent{
+    font-size: 32px;
+    color: #2e8ece;
+}
+
+.date{
+    margin-left: 600px;
+    margin-top: -95px;
+}
+
+.articles{
+    margin-top: 100px;
+    font-size: 25px;
+    color: #2e8ece;
+}
+
+
+.width{
+    text-align:right;
+}
+.top{
+    padding-top: 50px;
+}
+
+.titlebday{
+    font-size: 30px;
+}
+
+.errorlogin{
+    color:red;
+    font-size: 32px;
+}
+
+@media only screen and (max-width: 1318px){
+    .shop{
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width : 991px) {
+    .backgroundcolorSidebar {
+        height: 350px;
+    }
+
+    .flowerpower{
+        margin-top: -80px;
+    }
+
+    .inloggen{
+        margin-top: -150px;
+        margin-left: 600px;
+    }
+    .uitloggen{
+        margin-top: 20px;
+        margin-left: 600px;
+    }
+
+    .welcome{
+        margin-top: -90px;
+        margin-left: 600px;
+    }
+
+    .menu{
+        text-align: left;
+    }
+
+
+    .shop2{
+        margin-top: -100px;
+        margin-left: 500px;
+    }
+
+    .imagecontact{
+        margin-top: -380px;
+        margin-left: 100px;
+    float:left;
+    }
+
+    .imageommen{
+        float:left;
+        margin-top: -380px;
+        margin-left: 500px;
+    }
+
+    .shop3{
+        margin-top: 300px;
+        margin-left: 100px;
+    }
+
+    .shop4{
+        margin-left: 500px;
+        margin-top: -100px;
+    }
+
+    .imagezwolle{
+        margin-top: 30px;
+        float:left;
+        margin-left: 100px;
+        width: 250px;
+        height: 150px;
+    }
+
+    .imagedalfsen{
+        margin-top: 30px;
+        margin-left: 400px;
+        float:left;
+        width: 250px;
+        height: 150px;
+    }
+
+}
+
+
+@media only screen and (max-width : 800px) {
+    .inloggen, .uitloggen, .welcome{
+        margin-left: 500px;
+    }
+
+    .flowerpower{
+        font-size: 20px;
+        margin-left: 200px;
+    }
+    .shop1{
+        margin-left: 0px;
+    }
+
+    .imagecontact{
+        margin-left: 0px;
+    }
+
+    .shop2{
+        margin-left: 350px;
+    }
+
+    .imageommen{
+        margin-left: 350px;
+    }
+
+    .shop3{
+        margin-left: 0px;
+    }
+
+    .imagezwolle{
+        margin-left: 0px;
+    }
+
+    .shop4{
+        margin-left: 350px;
+    }
+
+    .imagedalfsen{
+        margin-left: 350px;
+
+    }
+
+    .date{
+        margin-left: 400px;
+    }
+
+
+}
+
+@media only screen and (max-width : 630px){
+
+    .inloggen, .uitloggen, .welcome{
+        margin-left: 400px;
+    }
+
+    .shop{
+        width: 450px;
+        margin-left: 0px;
+    }
+
+.imagecontact{
+    margin-top: -330px;
+}
+
+    .shop2{
+        margin-left: 0px;
+        margin-top: 250px;
+    }
+
+    .imageommen{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+
+    .imagezwolle{
+        position: absolute;
+        left: 20px;
+        top: 350px;
+
+    }
+    .shop3{
+        position: absolute;
+        top: 450px;
+
+        margin-left: 0px;
+    }
+
+    .shop4{
+        position: absolute;
+        top: 1200px;
+        left: -330px;
+    }
+
+    .imagedalfsen{
+        position: absolute;
+        top: 700px;
+        left: -330px;
+    }
+
+
+
+    .date{
+        margin-left: 300px;
+    }
+
+
+
+
+
+
+
+}
+
+@media only screen and (max-width: 540px){
+    .inloggen, .uitloggen, .welcome{
+        margin-left: 300px;
+    }
+    .flowerpower{
+        margin-left: 130px;
+    }
+    .logo{
+        width: 100px;
+    }
+
+    .registerform{
+        margin-left: 0px;
+    }
+
+    .date{
+        margin-left: 250px;
+    }
+}
+
+@media only screen and (max-width: 430px){
+    .inloggen{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .flowerpower{
+        margin-left: 60px;
+        margin-top: -40px;
+    }
+
+    .logo{
+        width: 50px;
+    }
+
+    .uitloggen{
+        margin-left: 0px;
+    }
+
+    .welcome{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .boeket{
+        width: 350px;
+    }
+
+    .shop{
+        width: 350px;
+    }
+
+
+    .date{
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 380px){
+
+    .boeket{
+        width: 250px;
+    }
+
+    .shop{
+        width: 250px;
+
+    }
+}
